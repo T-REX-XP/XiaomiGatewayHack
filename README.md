@@ -4,4 +4,5 @@
 
 Распиновка и фото плат
 ## Aqara door window sersor
-![312691b7-ba32-49bc-9d31-009b79db9db7.jpg]
+![Alt text](312691b7-ba32-49bc-9d31-009b79db9db7.jpg "Optional title")
+
