@@ -12,6 +12,7 @@
 
 ## Get power for USB 
 ![Alt text](/photo/photo5208813406491095004.jpg "Optional title")
+![Alt text](/photo/photo5208813406491095005.jpg "Optional title")
 ![Alt text](/photo/photo5208813406491095006.jpg "Optional title")
 
 
