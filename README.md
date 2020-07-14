@@ -37,7 +37,7 @@ or
 tar -cvpzf backup.tar.gz --exclude = / backup.tar.gz
 ```
 
-### Create backup via nand dumping 
+## Create backup via nand dumping 
 
 Снятие полного образа
 Чтение областей нанд
@@ -62,4 +62,31 @@ md.b 80800000 700000
 ==> nand write 80800000 300000 700000
 ```
 Примерная процедура снятия образа. И восстановления.
+
+## Install ZESP software to the hub with the following revisions: DGNWG02LM, DGNWG05LM, ZHWG11LM
+
+1. получаем рут,подключаемся через терминал по ssh:
+
+```
+cd /opt
+wget http://82.146.46.112/fw/mihub.tar.gz
+tar -xzvf mihub.tar.gz -C /
+
+ln -s /opt/node/bin/npm  /usr/bin/npm
+ln -s /opt/node/bin/node  /usr/bin/node
+```
+
+2. прошиваем зигби модуль:
+```
+cd /opt/app/util
+./flashNew.sh
+
+cd /opt/app
+./start.sh
+```
+после запуска открываем браузер по адресу http://ip_вашего_хаба:8080/main.html
+3. заходим в меню->инит гейт инициализируем зигби
+меню->сетап прописываем настройки MQTT
+меню->менеджер фирмвари обновляем апдейт
+перезапускаем софт CTRL+C     ./start.sh
 
