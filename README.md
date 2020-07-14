@@ -12,11 +12,14 @@
 
 ## Get power for USB 
 ![Alt text](/photo/photo5208813406491095004.jpg "Optional title")
+![Alt text](/photo/photo5208813406491095006.jpg "Optional title")
+
 
 ## Aqara door window sersor
 ![Alt text](/photo/312691b7-ba32-49bc-9d31-009b79db9db7.jpg "Optional title")
 
-
+## JN5169 pinout
+![Alt text](/photo/photo5208447243349241339.jpg "Optional title")
 
 ## How to create backup
 
