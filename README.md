@@ -21,6 +21,9 @@
 ## JN5169 pinout
 ![Alt text](/photo/photo5208447243349241339.jpg "Optional title")
 
+## Hacking Xiaomi Aqara to use 5v USB power or 12 volts
+https://www.youtube.com/watch?v=Mcq02y5SwGw
+
 ## How to create backup
 
 ```
