@@ -33,15 +33,15 @@ nc -p 2222 -l | dd of=/dev/mtdblock6
 or 
 
 ```
-gzip -c -9 / dev / mtd0> /tmp/mtd0.gz  
-gzip -c -9 / dev / mtd1> /tmp/mtd1.gz  
-gzip -c -9 / dev / mtd2> /tmp/mtd2.gz  
-gzip -c -9 / dev / mtd3> /tmp/mtd3.gz
+gzip -c -9 /dev/mtd0 > /tmp/mtd0.gz  
+gzip -c -9 /dev/mtd1 > /tmp/mtd1.gz  
+gzip -c -9 /dev/mtd2 > /tmp/mtd2.gz  
+gzip -c -9 /dev/mtd3 > /tmp/mtd3.gz
 ```
 or
 
 ```
-tar -cvpzf backup.tar.gz --exclude = / backup.tar.gz
+tar -cvpzf backup.tar.gz --exclude=/backup.tar.gz
 ```
 
 ## Create backup via nand dumping 
